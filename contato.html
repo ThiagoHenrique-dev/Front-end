@@ -1,18 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+
+
+    </style>
+   
 </head>
+<body>
+    <h1> <strong>Meus contatos</strong> </h1>
+    <p>Telefone: 819999999</p>
+    <p>Rua 2 de fevereiro</p>
+   
 
-    <body>
+    <form action="">
+    <table>
+
         
-        <h3>Meus contatos</h3>
-        <p>Telefone: 819999999</p>
-        <p>Rua dos bobos, número 0</p>
-        <a href="index.html">Voltar para o ínicio</a>
+        
+            <tr>
+                <th>PEÇA SEU ORÇAMENTO</th>
+            </tr>
 
-    </body>
+            <tr>
+                <td>  
+                    <label for="Nome">Nome:</label>
+                </td>
+                <td>
+                    <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+                    
+                </td>
+            </tr>
 
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="assunto">Assunto:</label>
+                </td>
+            
+            
+                <td>
+                    <select name="assunto" id="assunto">
+                        <option value="fes">Festa de casamento</option>
+                        <option value="fes">festa de comemoração</option>
+                        <option value="fes">Festa de aniversario</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="data-marc">Datas disponíveis:</label>
+                </td>
+
+                <td>
+                    <input type="date" name="data-marc" id="data-marc">
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="mensagem">Mesagem:</label>
+                </td>
+                <td>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="DIgite o texto" maxlength="400"></textarea >
+                </td>
+            </tr>
+               
+           
+        
+       
+
+    </table>
+</form>
+
+    <a href="index.html">Voltar para o ínicio</a>
+
+
+</body>
 </html>
