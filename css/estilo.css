@@ -1,12 +1,27 @@
 body{
-    background-color: lightsteelblue;
+    background: linear-gradient( #0081B4, lightblue );
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+
+}
+
+img{
+    float: left;
+    border-radius: 150% 150% 150% 50%;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 3px;
 }
 
 p{
-    color: black;
-    font-size: 20px;
+    
+    font-size: 15px;
 }
 .Vermelho{
-    color: black;
-    font-size: 40px;
+    font-size: 30px;
+}
+.fonte{
+    font-size: 30px;
 }
