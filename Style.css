@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+.intro {
+    
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    
+    color: white;
+    background: url("img/code-matrix.gif") ;
+    background-color: black;
+    
+    
+    background-size: contain;
+    
+}
+.fundodiv1{
+    background-color: black;
+    
+
+}
+.lado{
+    display: flex;
+    text-align: left;
+    
+
+}
+.embaixo{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.table{
+    border: 1px solid black;
+    
+}
